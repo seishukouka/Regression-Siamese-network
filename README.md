@@ -27,7 +27,6 @@ You can install the necessary packages using `pip`:
 
 ```bash
 pip install -r requirements.txt
-
 Usage
 To use this project, follow these steps:
 
@@ -35,6 +34,8 @@ Prepare your dataset by placing your normal and diagonal images in the augmentat
 
 Run the siamese_network.py script to train the model:
 
+bash
+Copy code
 python siamese_network.py
 After training, the best model will be saved as best_model.pth.
 
