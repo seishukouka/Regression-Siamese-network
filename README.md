@@ -35,31 +35,26 @@ To use this project, follow these steps:
 1. Prepare your dataset by placing your normal and diagonal images in the `augmentation_images/` directory.
 2. Run the `siamese_network.py` script to train the model:
 
-```bash
-python siamese_network.py
+    ```bash
+    python siamese_network.py
+    ```
 
-bash
-Copy code
-python siamese_network.py
-After training, the best model will be saved as best_model.pth.
+   After training, the best model will be saved as `best_model.pth`.
 
-For evaluating the model on the validation set, you can modify and use the evaluation code section in siamese_network.py.
+3. For evaluating the model on the validation set, you can modify and use the evaluation code section in `siamese_network.py`.
 
-Customization
+## Customization
+
 You can customize the following aspects of the project:
 
-Data Path: Change data_dir and normal_image_path in the siamese_network.py script to point to your dataset directories.
-Hyperparameters: Modify learning rate, batch size, and number of epochs as needed in the training section of the script.
-Network Architecture: Adjust the Siamese Network architecture in siamese_network.py according to your requirements.
-Contributing
+- **Data Path**: Change `data_dir` and `normal_image_path` in the `siamese_network.py` script to point to your dataset directories.
+- **Hyperparameters**: Modify learning rate, batch size, and number of epochs as needed in the training section of the script.
+- **Network Architecture**: Adjust the Siamese Network architecture in `siamese_network.py` according to your requirements.
+
+## Contributing
+
 Contributions to this project are welcome! Please fork the repository and create a pull request with your improvements.
 
-License
+## License
+
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
-
-Copy code
-
-この内容をそのままコピーして、GitHubのREADME.mdファイルに使用してください。これで「Usage」とそれに続くセクションが正しくフォーマットされるはずです。
-
-
-
