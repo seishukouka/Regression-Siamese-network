@@ -27,6 +27,7 @@ You can install the necessary packages using `pip`:
 
 ```bash
 pip install -r requirements.txt
+```
 ## Usage
 
 To use this project, follow these steps:
