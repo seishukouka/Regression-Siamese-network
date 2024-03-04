@@ -27,12 +27,15 @@ You can install the necessary packages using `pip`:
 
 ```bash
 pip install -r requirements.txt
-Usage
+## Usage
+
 To use this project, follow these steps:
 
-Prepare your dataset by placing your normal and diagonal images in the augmentation_images/ directory.
+1. Prepare your dataset by placing your normal and diagonal images in the `augmentation_images/` directory.
+2. Run the `siamese_network.py` script to train the model:
 
-Run the siamese_network.py script to train the model:
+```bash
+python siamese_network.py
 
 bash
 Copy code
@@ -52,3 +55,10 @@ Contributions to this project are welcome! Please fork the repository and create
 
 License
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
+
+Copy code
+
+この内容をそのままコピーして、GitHubのREADME.mdファイルに使用してください。これで「Usage」とそれに続くセクションが正しくフォーマットされるはずです。
+
+
+
