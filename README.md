@@ -1,6 +1,6 @@
 # Regression-Based Siamese Network for Eye Opening Rate Prediction
 
-This project implements a regression-based Siamese Network to predict the eye-opening rate from images. The network utilizes pairs of eye images, comparing a 'normal' image against various 'diagonal' (altered) images, to estimate how open the eyes are on a scale from 0 to 1. It's particularly useful in applications where understanding the state of the eyes is crucial, such as in driver drowsiness detection systems.
+This project implements a regression-based Siamese network that predicts the rate of eye opening from images. The network uses pairs of eye images to compare "normal state images" and "current state images" taken from various angles to estimate on a scale of 0 to 1 how open the eyes are. It is particularly useful in applications where understanding the state of the eyes is important, such as driver drowsiness detection systems.
 
 ## Project Structure
 
